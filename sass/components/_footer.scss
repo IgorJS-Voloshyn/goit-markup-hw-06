@@ -1,0 +1,206 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--accent-bgc);
+}
+
+.footer-contacts--positionong {
+    margin-right: 70px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.footer--positioning {
+    position: relative;
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.logo--footer {
+    text-decoration: none;
+    color: var(--color-white);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&:hover,
+&:focus {
+    color: var(--color-accent);
+}
+}
+
+.logo--accent-color {
+    color: var(--color-accent);
+}
+
+.footer-contacts {
+    display: flex;
+    gap: 9px;
+    flex-direction: column;
+}
+
+.footer-contacts__address {
+    color: var(--color-white);
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&:hover,
+&:focus {
+    color: var(--color-accent);
+}
+}
+
+.footer-contacts__contact {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&:hover,
+&:focus {
+    color: var(--color-accent);
+}
+}
+
+.btn-footer {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-network--position {
+    position: absolute;
+    top: 12px;
+    left: 301px;
+}
+
+.social-network__title {
+    margin-bottom: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+.social-network_icon--invert {
+    fill: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 20px;
+    height: 20px;
+}
+
+.social-network__link--invert {
+    fill: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 0;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&:hover,
+&:focus {
+    background-color: rgba(33, 150, 243, 1);
+}
+}
+
+.footer__sign-up {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+}
+
+.sign-up__label {
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--color-white);
+}
+
+.sign-up--spacing {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.sign-up__input {
+    padding: 15px 16px;
+    outline: none;
+    height: 50px;
+    width: 358px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    background-color: var(--accent-bgc);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.sign-up__btn {
+    width: 200px;
+    height: 50px;
+    padding: 10px 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1, 8;
+    background-color: var(--color-accent);
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    letter-spacing: 0.06em;
+
+    color: var(--color-white);
+    transition-property: color background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sign-up--position {
+    margin-bottom: 20px;
+}
